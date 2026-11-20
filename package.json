@@ -1,0 +1,12 @@
+{
+  "name": "keterix-bench-app",
+  "version": "1.0.0",
+  "description": "Synthetic Node.js/Express benchmark & chaos-testing app for Keterix PaaS AI scaling, ablation, and closed-loop RCA verification.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --expose-gc server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
